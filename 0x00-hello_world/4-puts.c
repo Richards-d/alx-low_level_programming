@@ -1,12 +1,15 @@
-#!/bin/bash
 #include <stdio.h>
-int main(void)
-{
-	/* initializing the variables */
-	char a[32] = ""Programming is like building a multilingual puzzle";
-	/* put a */
-	puts(a);
+#include <string.h>
+
+int main(void)  {
+
+/* initializing string */
+char *str = "Programming is like building a multilingual puzzle";
+
+/* writing to stdout */
+puts(str1);
         
-        return (0);
+return (0);
+
 }
 
