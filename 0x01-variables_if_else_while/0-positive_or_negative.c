@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - a random number to the variable n each time it is executed
  *
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -12,6 +12,7 @@ int main(void)
 
 	srand(time());
 	n = rand() - RAND_MAX / 2;
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
