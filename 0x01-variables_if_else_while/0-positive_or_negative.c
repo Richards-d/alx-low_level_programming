@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - a random number to the variable n each time it is executed
+ * main -> a random number to the variable n each time it is executed
  *
  * Return: Always 0 (success)
  */
 int main(void)
-{
+
 	int n;
 
 	srand(time());
@@ -26,4 +26,3 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-}
