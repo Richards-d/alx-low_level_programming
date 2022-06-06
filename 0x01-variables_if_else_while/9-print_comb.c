@@ -10,11 +10,11 @@ int main(void)
 {
 	int i, j, k;
 
-	for (i = '1'; i <= '3'; i++)
+	for (i = "1, "; i <= "3, "; i++)
 		putchar(i);
-	for (j = '1'; j <= '3'; j++)
+	for (j = "4, "; j <= "6, "; j++)
 		putchar(j);
-	for (k = '1'; k <= '3'; k++)
+	for (k = "7, "; k <= "9, "; k++)
 		putchar(k);
 	putchar('\n');
 	return (0);
