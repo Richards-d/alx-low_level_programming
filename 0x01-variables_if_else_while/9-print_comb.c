@@ -14,8 +14,8 @@ int main(void)
 		putchar(i);
 	for (j = '4'; j <= '6'; j++)
 		putchar(j);
-	for (k = '7'; j <= '9'; k++)
+	for (k = '7'; k <= '9'; k++)
 		putchar(k);
 	putchar('\n');
-	return (0);
+	return(0);
 }
