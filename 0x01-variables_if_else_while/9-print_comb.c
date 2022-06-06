@@ -8,15 +8,14 @@
  */
 int main(void)
 {
-	int i;
+	int i, j, k;
 
-	for (i = '0'; i <= '9'; i++)
-		putchar((i % 10) + '0');
-	if (i == 9)
-		continue;
-
-		putchar(',');
-		putchar(' ');
-	putchar('\n');
+	for (i = '0'; i <= '3'; i++)
+		putchar(i);
+	for (j = '4'; j <= '6'; j++)
+		putchar(j);
+	for (k = '7'; j <= '9'; k++)
+		putchar(k);
+	putchar('\n' ',' ' ');
 	return (0);
 }
