@@ -17,5 +17,5 @@ int main(void)
 	for (k = '7'; k <= '9'; k++)
 		putchar(k);
 	putchar('\n');
-	return(0);
+	return (0);
 }
