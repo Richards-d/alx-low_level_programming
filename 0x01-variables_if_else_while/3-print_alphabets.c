@@ -11,8 +11,8 @@ int main(void)
 	char i;
 
 	for (i = 'a'; i <= 'z'; i++)
-		putchar(i);
+		putchar("%c", i);
 	for (i = 'A'; i <= 'Z'; i++)
-		putchar(i);
+		putchar("%c", i);
 	return (0);
 }
