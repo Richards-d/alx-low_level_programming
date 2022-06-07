@@ -12,7 +12,7 @@ int _putchar(char c)
 
 int main()
 {
-	_putchar("_putchar");
+	_putchar(c);
 	_putchar('\n');
 	return (0);
 }
