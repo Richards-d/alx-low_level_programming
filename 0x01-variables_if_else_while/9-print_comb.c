@@ -11,11 +11,11 @@ int main(void)
 	int i, j, k;
 
 	for (i = '0'; i <= '3'; i++)
-		putchar("%d", i);
+		putchar(i);
 	for (j = '4'; j <= '6'; j++)
-		putchar("%d", j);
+		putchar(j);
 	for (k = '7'; k <= '9'; k++)
-		putchar("%d", k);
+		putchar(k);
 	putchar('\n');
 	return (0);
 }
