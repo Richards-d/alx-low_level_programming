@@ -10,12 +10,13 @@ int main(void)
 {
 	int i, j, k;
 
+	scanf("%d", )
 	for (i = '0'; i <= '3'; i++)
 		putchar(i);
 	for (j = '4'; j <= '6'; j++)
 		putchar(j);
 	for (k = '7'; k <= '9'; k++)
 		putchar(k);
-	putchar("%c\n");
+	putchar('\n');
 	return (0);
 }
