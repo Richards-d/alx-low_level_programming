@@ -6,7 +6,8 @@
  *
  * Return: Always 0 (success)
  */
-int _putchar(char _putchar)
+int main(void)
 {
-	return (write(1, &_putchar, 1));
+	_putchar("_putchar\n");
+	return (0);
 }
