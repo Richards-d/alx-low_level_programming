@@ -8,6 +8,10 @@
  */
 int main(void)
 {
-	_putchar("_putchar\n");
+	char line;
+
+	for (line = "_putchar");
+	_putchar(line)
+	_putchar('\n')
 	return (0);
 }
