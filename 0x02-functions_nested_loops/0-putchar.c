@@ -1,16 +1,19 @@
-#include <stdio.h>
+#include <unistd.h>
 #include <main.h>
 /**
  * main - prints _putchar, followed by a new line.
  *
  * Return: Always 0 (success)
  */
-int main(void)
+int _putchar(char c)
 {
-	char line;
+	return (write(1, &c, 1));
+}
 
-	for (line = "_putchar");
-	_putchar(line)
-	_putchar('\n')
+int main()
+{
+	_putchar('_put');
+	_putchar('char');
+	_putchar('\n');
 	return (0);
 }
