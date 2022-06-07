@@ -16,6 +16,6 @@ int main(void)
 		putchar(j);
 	for (k = '7'; k <= '9'; k++)
 		putchar(k);
-	putchar('\n');
+	putchar("%c\n");
 	return (0);
 }
