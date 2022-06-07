@@ -10,7 +10,7 @@ int main(void)
 {
 	int i, j, k;
 
-	scanf("%d", )
+	scanf("%d", &i,&j,&k);
 	for (i = '0'; i <= '3'; i++)
 		putchar(i);
 	for (j = '4'; j <= '6'; j++)
