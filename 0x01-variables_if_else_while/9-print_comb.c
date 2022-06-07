@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+	int *
 	int i, j, k;
 
 	scanf("%d");
