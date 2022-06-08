@@ -1,7 +1,8 @@
 #ifdef MAIN_H
 #define MAIN_H
+#include <stdio.h>
 int _putchar(char c);
-#endif
+#endif /* MAIN_H */
 /**
  * main - prints _putchar, followed by a new line.
  *
