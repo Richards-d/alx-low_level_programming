@@ -1,11 +1,15 @@
-#include <unistd.h>
+#ifdef MAIN_H
+#define MAIN_H
+int _putchar(char c);
+#endif
 /**
  * main - prints _putchar, followed by a new line.
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0 (success)
  */
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+	putchar('_','p','u','t','c','h','a','r');
+	putchar('\n');
+	return (0);
 }
