@@ -7,12 +7,7 @@
  */
 int _putchar(char c)
 {
+	for (c = "_putchar")
 	return (write(1, &c, 1));
-}
-
-int main()
-{
-	_putchar(c);
-	_putchar('\n');
 	return (0);
 }
