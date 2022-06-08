@@ -6,7 +6,7 @@
  * Return: Always 0 (success)
  */
 #endif /* MAIN_H */
-int _putchar(char c)
+int _putchar(char c);
 
 {
 	_putchar('_');
