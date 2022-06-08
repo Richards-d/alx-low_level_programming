@@ -9,7 +9,14 @@ int _putchar(char c);
  */
 int _putchar(char c)
 {
-	putchar('_','p','u','t','c','h','a','r');
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
 	putchar('\n');
 	return (0);
 }
