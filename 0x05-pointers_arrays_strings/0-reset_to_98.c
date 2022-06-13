@@ -5,9 +5,9 @@
  */
 void reset_to_98(int *n)
 {
-	int var = 98;
-	int *n;
+	int n = 98;
+	int *ip;
 
-	_putchar("Value of *n variable: %d\n, *n");
+	_putchar("Value of *ip variable: %d\n", *ip);
 	return (0);
 }
