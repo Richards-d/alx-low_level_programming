@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * print_rev - function that prints a string, in reverse.
  * @s: the used string reference pointer
@@ -11,6 +11,6 @@ void print_rev(char *s)
 	while (s[i])
 		i++;
 	while (i--)
-		_putchar(*s);
+		_putchar(s[i]);
 	_putchar('\n');
 }
