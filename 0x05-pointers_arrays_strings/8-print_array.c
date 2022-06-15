@@ -5,7 +5,7 @@
  * @a: int type array pointer
  * @n: int type integer
  * Numbers must be separated by comma, followed by a space
- * numbers should be displayed in the same order 
+ * numbers should be displayed in the same order
  */
 void print_array(int *a, int n)
 {
